@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiani ATM Solutions</title>
+    <style>
+        /* Your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #ffd700;
+            color: #000;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #000;
+            color: #ffd700;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffd700;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #111;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        .main-content {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background-color: #ffd700;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #f1c40f;
+        }
+        .testimonial {
+            border: 1px solid #ffd700;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .testimonial p {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #000;
+            color: #ffd700;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kiani ATM Solutions</h1>
+        <p>"Seamless Transactions, Boundless Opportunities"</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#why-choose-us">Why Choose Us</a>
+        <a href="#locations">Locations</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#blog">Blog/News</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Kiani ATM Solutions</h2>
+            <p>Brief introduction to Kiani ATM Services and its offerings.</p>
+            <p>Benefits of having an ATM at your business.</p>
+            <a class="cta-button" href="#services">Learn More</a>
+            <a class="cta-button" href="#contact">Contact Us</a>
+        </section>
+
+        <section id="about" class="main-content">
+            <h2>About Us</h2>
+            <p>Kiani ATM Solutions was founded in 2024 with a vision to revolutionize financial accessibility and foster community empowerment. Our mission is to provide seamless cash access, empowering individuals and businesses to thrive. We uphold integrity, innovation, community impact, excellence, and collaboration as our core values. Over the years, we've built a reputation for reliability and professionalism, earning the trust of businesses and communities. Driven by a commitment to innovation, we continuously strive to enhance the ATM experience. Our goal remains steadfast: to promote inclusivity, accessibility, and positive community impact.</p>
+            <p>Choosing Kiani ATM Solutions offers distinct advantages that set us apart:
+
+Our track record underscores our reliability, ensuring high ATM uptime for your customers' convenience. With our service, you provide easy cash access on-site, boosting customer satisfaction and repeat visits. Our revenue-sharing model ensures profitability without upfront investment or maintenance costs. We offer tailored solutions to fit your unique business needs. From installation to ongoing support, expect exceptional service at every step. Partnering with us means contributing to local initiatives through transaction fee proceeds, fostering community impact. Count on our commitment to innovation for cutting-edge ATM solutions that meet consumer demands. When you choose Kiani ATM Solutions, you gain a trusted partner dedicated to your success.</p>
+            <!-- Meet the team (optional) -->
+        </section>
+
+        <section id="services" class="main-content">
+            <h2>Services</h2>
+            <p>At Kiani ATM Solutions, we offer comprehensive ATM deployment services tailored to meet the diverse needs of businesses and communities. Our services include consultation and site assessment to determine optimal ATM placement. Experienced technicians handle efficient and secure ATM installation. We provide customization options for branding and messaging. Our cash management ensures ATM availability with regular replenishment and processing. Routine maintenance and servicing by our technicians maximize ATM uptime. With 24/7 monitoring and support, issues are promptly addressed. Transaction reports offer insights into usage and revenue generation. We prioritize compliance and security to safeguard transactions. Additionally, our revenue-sharing model provides passive income without upfront investment. Trust Kiani ATM Solutions for hassle-free and profitable ATM deployment, allowing you to focus on core business operations.</p>
+            <p>The ATM installation process with Kiani ATM Solutions involves:
+
+Site Assessment: We evaluate the location for optimal placement.
+Preparation: Clearing the area and arranging necessary connections.
+Equipment Delivery: Safe delivery of ATM and accessories.
+Installation: Securely install and configure the ATM.
+Testing: Ensure all components function correctly.
+Training: Train staff on ATM operation and maintenance.
+Go-Live: Activate ATM and finalize settings.
+Post-Installation Support: Ongoing assistance and monitoring.
+Our streamlined process ensures minimal disruption and a reliable ATM service for your business</p>
+        </section>
+
+        <section id="why-choose-us" class="main-content">
+            <h2>Why Choose Us</h2>
+            <p>Reliable service.</p>
+            <p>Competitive pricing.</p>
+            <p>Customizable solutions to fit various business needs.</p>
+        </section>
+
+        <section id="locations" class="main-content">
+            <h2>Locations</h2>
+            <p></p>
+            <!-- Interactive map showing ATM locations -->
+        </section>
+
+        <section id="testimonials" class="main-content">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Love the service, keep providing convenience."</p>
+                <p>- Mo</p>
+            </div>
+            <div class="testimonial">
+                <p>"Keep up the good work."</p>
+                <p>- Harry</p>
+            </div>
+        </section>
+
+        <section id="contact" class="main-content">
+            <h2>Contact Us</h2>
+            <p>Email address: kianiatmsolutions@gmail.com</p>
+                   </section>
+
+        <section id="faqs" class="main-content">
+            <h2>FAQs</h2>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="blog" class="main-content">
+            <h2>Blog/News</h2>
+            <p> </p>
+        </section>
+
+        <!-- Optional Additions -->
+        <!-- Online account access for business owners to track ATM transactions and revenue -->
+        <!-- Promotions or special offers for new ATM installations -->
+        <!-- Resources section with guides and tips for maximizing ATM profitability -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kiani ATM Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
